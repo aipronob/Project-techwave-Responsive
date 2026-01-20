@@ -49,6 +49,10 @@
   margin: 16px 200px;
 }
 
+  @media screen and (max-width: 1000px) {
+     body {
+      background-color: greenyellow;}
+     }
 
 .nav-hr{
   background-color: red;
@@ -154,6 +158,11 @@
   margin: 0, auto;
 }
 
+@media screen and (max-width: 1000px) {
+     .banner {
+      width: 576px;}
+     }
+
 .banner-headline {
   padding-top: 40px;
   font-size: 60px;
@@ -184,6 +193,11 @@
   padding-bottom: 120px;
   
 }
+
+@media screen and (max-width: 1000px) {
+     #about {
+      width: 576px;}
+     }
 
 .users {
   margin-top: 30px;
@@ -225,6 +239,11 @@
   background-color: rgba(35, 14, 61, 1);
   padding-bottom: 120px;
 }
+
+@media screen and (max-width: 1000px) {
+     #why {
+      width: 576px;}
+     }
 .why-title {
   margin: 0 auto;
   justify-content: center;
@@ -256,6 +275,10 @@
 
 }
 
+@media screen and (max-width: 1000px) {
+     .why-container {
+      width: 576px;}
+     }
 .vertical-item {
   grid-column: span 1;
   grid-row: span 2;
@@ -306,9 +329,17 @@ feature-container {
   align-items: center;
   text-align: center;
   margin: 0 auto;
-
-
+  border: 1px solid #00FF88;
 }
+
+@media screen and (max-width: 1000px) {
+     #feature {
+      width: 576px;}
+     .feature-container {
+      width: 576px;}
+     
+     }
+
 
 .feature-title {
   padding-bottom: 40px;
@@ -346,6 +377,9 @@ feature-container {
 
 }
 
+@media screen and (max-width: 1000px) {
+     .host {
+      width: 576px;}
 .host-title {
   text-align: center;
   align-items: center;
@@ -389,6 +423,10 @@ feature-container {
   justify-content: center;
   padding-top: 120px;
 }
+
+@media screen and (max-width: 1000px) {
+     #footer .footer-container{
+      width: 576px;}
 
 .headline{
   font-size: 45px;
