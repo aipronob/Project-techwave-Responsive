@@ -303,7 +303,7 @@ feature-container {
   align-items: center;
   text-align: center;
   margin: 0 auto;
-  border: 1px solid green;
+
 
 }
 
@@ -325,7 +325,7 @@ feature-container {
 .item {
   height: 400px;
   background-color: rgba(37, 13, 68, 1);
-  border-radius: 30px;
+  border-radius: 35px;
   padding-top:100px ;
 
 }
@@ -333,15 +333,14 @@ feature-container {
 .feature-iframe {
   height: 214px;
   width: 100%;
-  border-radius: 30px;
+  border-radius: 40px;
 }
 
 
 
 .host {
   margin: 120px;
-  border: #00FF88;
-  border: 1px solid red;
+
 }
 
 .host-title {
