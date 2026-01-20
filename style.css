@@ -427,7 +427,7 @@ feature-container {
 @media screen and (max-width: 1000px) {
      #footer .footer-container{
       width: 576px;}
-
+     }
 .headline{
   font-size: 45px;
   display: flex;
