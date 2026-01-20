@@ -38,6 +38,8 @@
   text-align: center;
 }
 
+
+
 .nav {
   width: 71%;
   display: flex;
@@ -46,6 +48,7 @@
   align-items: center;
   margin: 16px 200px;
 }
+
 
 .nav-hr{
   background-color: red;
