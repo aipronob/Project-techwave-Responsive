@@ -1,0 +1,413 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.font-roboto{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* shared style */
+
+
+.white {
+  color: white;
+}
+
+.green {
+  color: #00FF88;
+}
+
+/* Main style */
+
+.body {
+  width: 1600px;
+}
+
+
+/* head section */
+
+.header {
+
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nav {
+  width: 71%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin: 16px 200px;
+}
+
+.nav-hr{
+  background-color: red;
+  border: none;
+  height: 1px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.about-hr {
+  width: 1200px;
+  background-color: yellow;
+  border: none;
+  height: 1px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.brandname  {
+  display: flex;
+}
+
+.tech {
+ color: white;
+}
+
+.wave {
+   background: linear-gradient(to top,#f8d304, #fc72ff,#6e02fc, #8f68ff);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: animate-gradient 2.5s linear infinite;
+
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  color: aliceblue;
+}
+
+
+/* Button section start */
+.btn-subscribe-1, .btn-spotify {
+  color: white;
+  font-weight: 700;
+  width: 135px;
+  height: 44px;
+   background: linear-gradient(to top right,#fcf80be8, #f609fa,#6e02fc);
+   animation: animate-gradient 2.5s linear infinite;
+   border-radius: 20px;
+   border: none;
+
+}
+
+
+.btn-spotify {
+  color: white;
+  font-weight: 700;
+  width: 210px;
+  height: 44px;
+  font-weight: 600px;
+   background: linear-gradient(to top right,#fcf80be8, #f609fa,#6e02fc);
+   animation: animate-gradient 2.5s linear infinite;
+   border-radius: 20px;
+   border: none;
+
+}
+
+.btn-subscribe-2 {
+  color: #00FF88;
+  font-weight: 800;
+  width: 135px;
+  height: 44px;
+   background: transparent;
+   border-radius: 20px;
+   border: 1px solid #00FF88;
+
+}
+
+.btn{
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+/* Button section End */
+
+
+.banner {
+  background-image: url(./assets/hero-bg.png);
+  height: 760px;
+  width: 1600px;
+  align-items: center;
+  margin: 0, auto;
+}
+
+.banner-headline {
+  padding-top: 40px;
+  font-size: 60px;
+  color: white;
+
+
+}
+
+
+.banner-details {
+  color: white;
+}
+
+.circle{
+  padding-top: 101px;
+}
+
+/* Body section */
+
+.body {
+  background-color: rgba(26, 11, 46, 1);
+}
+
+#about {
+  color: white;
+  height: 300px;
+  text-align: center;
+  padding-bottom: 120px;
+  
+}
+
+.users {
+  margin-top: 30px;
+  margin-bottom: 80px;
+  text-align: center;
+ }
+
+
+.user-stat {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  margin: 0, auto;
+  justify-content: center;
+  gap: 30px;
+  
+}
+
+.stat-num {
+  color: #00FF88;
+}
+.user-stat-note {
+  margin-bottom: 10px;
+}
+
+
+#why-techwave {
+  background-color: #351165;
+  height: 1122px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  
+}
+
+#why {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(35, 14, 61, 1);
+  padding-bottom: 120px;
+}
+.why-title {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 40px;
+
+  font-size: 48px;
+  line-height:58px;
+
+}
+
+
+.why-container {
+  width:1200px;
+  height: 783px;
+  display: flex;
+  gap: 30px;
+  padding: 3px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+
+}
+
+.vertical-item {
+  grid-column: span 1;
+  grid-row: span 2;
+  border: 1px solid red;
+
+}
+
+.horizontal-item {
+  grid-column: span 2;
+  grid-row: span 1;
+  border: 1px solid #00FF88;
+}
+
+.why-item {
+  background-color: rgba(83, 60, 114, 1);
+  height: 270px;
+  border-radius: 30px;
+  border: 1px solid #00FF88;
+  
+
+}
+
+.premium {
+  height: 480px;
+  width: 380px;
+  border-radius: 30px;
+  padding: 40px;
+}
+
+.why-icon {
+  padding-top: 101px;
+}
+
+.item h2 {
+  padding-bottom: 10px;
+}
+feature-container {
+  width:1200px;
+  height: 539px;
+  background-color: rgba(26, 11, 46, 1);
+  
+}
+
+.feature-container {
+  padding: 120px;
+  background-color: rgba(26, 11, 46, 1);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid green;
+
+}
+
+.feature-title {
+  padding-bottom: 40px;
+}
+
+.feature-item{
+  width: 1200px;
+  height: 513px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.item {
+  height: 400px;
+  background-color: rgba(37, 13, 68, 1);
+  border-radius: 30px;
+  padding-top:100px ;
+
+}
+
+.feature-iframe {
+  height: 214px;
+  width: 100%;
+  border-radius: 30px;
+}
+
+
+
+.host {
+  margin: 120px;
+  border: #00FF88;
+  border: 1px solid red;
+}
+
+.host-title {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.host-details {
+  background-color: #351165;
+  display: flex;
+  gap: 24px;
+  border-radius: 35px;
+}
+
+.host-image {
+  height: 200px;
+  width: 200px;
+  padding: 40px 24px;
+}
+
+.host-item {
+  justify-content: center;
+  text-align: left;
+  line-height: 24px;
+  align-items: start;
+  padding-top: 48.5px;
+}
+
+.host-item h1{
+  margin-bottom: 16px;
+  
+}
+
+/* footer section */
+
+#footer .footer-container{
+  height: 412px;
+  background-image: url(./assets/footer-bg.png);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 120px;
+}
+
+.headline{
+  font-size: 45px;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+   
+}
+
+.social-media{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 40px;
+  font-weight: 500;
+  margin-bottom:32px;
+}
+
+@media screen and (max-width: 576px) {
+  
+}
