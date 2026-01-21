@@ -311,7 +311,8 @@
 
 @media screen and (max-width: 1000px) {
      #why {
-      width: 576px;}
+      width: 576px;
+     margin-left: 0px;}
      }
 .why-title {
   margin: 0 auto;
@@ -326,6 +327,10 @@
 
 }
 
+@media screen and (max-width: 1000px) {
+     .why-title {
+      font-size: 30px;}
+     }
 
 .why-container {
   width:1200px;
@@ -346,14 +351,20 @@
 
 @media screen and (max-width: 1000px) {
      .why-container {
-      width: 576px;}
+      width: 576px;
+      height: auto;
+      display: grid;
+      margin: 0 auto;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+     }
      }
 .vertical-item {
   grid-column: span 1;
   grid-row: span 2;
-  border: 1px solid red;
 
 }
+
 
 .horizontal-item {
   grid-column: span 2;
@@ -361,14 +372,20 @@
   border: 1px solid #00FF88;
 }
 
+@media screen and (max-wid) {
+  .horizontal-item {
+    display: none;
+  } 
+}
+
 .why-item {
-  background-color: rgba(83, 60, 114, 1);
+  background-color: (83, 60, 114, 1);
   height: 270px;
   border-radius: 30px;
   border: 1px solid #00FF88;
   
-
 }
+
 
 .premium {
   height: 480px;
@@ -376,6 +393,15 @@
   border-radius: 30px;
   padding: 40px;
 }
+
+@media screen and (max-width: 1000px) {
+
+      .premium {
+        width: 500px;
+        height: auto;
+      margin-left: 0;
+      }
+      }
 
 .why-icon {
   padding-top: 101px;
@@ -427,7 +453,6 @@
   text-align: center;
   margin: 0 auto;
   gap: 30px;
-  background-color: red;
 }
 
 @media screen and (max-width: 1000px) {
@@ -550,6 +575,11 @@
   padding-top: 120px;
 }
 
+@media screen and (max-width: 1000px) {
+     #footer .footer-container{
+      width: 576px;
+    }
+     }
 
 .headline{
   font-size: 45px;
@@ -561,6 +591,16 @@
    
 }
 
+@media screen and (max-width: 1000px) {
+     .headline{
+      font-size: medium;
+      width: 300px;
+      padding-bottom: 30px;
+      margin-top: 20px;
+      
+    }
+     }
+
 .social-media{
   display: flex;
   justify-content: center;
@@ -571,8 +611,7 @@
   margin-bottom:32px;
 }
 
-@media screen and (max-width: 1000px) {
-     #footer .footer-container{
-      width: 576px;}
-     }
-    
+.social-media i{
+  font-size: 24px;
+  color: white;
+}
