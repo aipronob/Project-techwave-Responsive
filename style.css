@@ -161,7 +161,6 @@
   width: 135px;
   height: 44px;
    background: linear-gradient(to top right,#fcf80be8, #f609fa,#6e02fc);
-   animation: animate-gradient 2.5s linear infinite;
    border-radius: 20px;
    border: none;
 
@@ -248,21 +247,21 @@
   left: 750px;}
 
   .new  {
+    border: none;
+    height: 30px;
     color: white;
     font-size: 24px;
-    padding-bottom: 16px;
     background-color: #00FF88;
     width: 50px;    
     border-radius: 12px;
     margin: 0 auto; 
     position: relative;
-    left: 150px;
+    left: -70px;
     top: -300px;
     font-size: 16px;
     text-align: center;
-    align-items: center;
     justify-content: center;
-    height: 8px;
+    align-items: center;
 
   }  
  @media screen and (max-width: 1000px) {
@@ -279,8 +278,14 @@
         left: -130px;
       }
       .new {
-        left: 80px;
-        top: -190px;
+        width: 50px;
+        height: 30px;
+        left: -110px;
+        top: -160px;
+        background-color: #6e02fc;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
       }
      }
 
