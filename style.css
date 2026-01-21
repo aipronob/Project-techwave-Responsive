@@ -64,8 +64,14 @@
   }  
 }
 
+@media screen and (max-width: 1000px) {
+  .subscribe-btn-nav {
+    display: none;
+  }
+}
+
 .nav-hr{
-  background-color: red;
+  background-color: grey;
   border: none;
   height: 1px;
   justify-content: center;
