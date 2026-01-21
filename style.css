@@ -29,6 +29,13 @@
   width: 1600px;
 }
 
+@media screen and (max-width: 1000px) {
+     .body {
+      width: 576px;
+  
+}
+}
+
 
 /* head section */
 
