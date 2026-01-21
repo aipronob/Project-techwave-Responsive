@@ -92,7 +92,7 @@
 .nav-hr{
   background-color: grey;
   border: none;
-  height: 1px;
+  height: 2px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -128,6 +128,7 @@
 
 .tech {
  color: white;
+  font-size: 45px
 }
 
 .wave {
@@ -136,6 +137,7 @@
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
    animation: animate-gradient 2.5s linear infinite;
+   font-size: 45px;
 
 }
 
